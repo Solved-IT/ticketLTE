@@ -30,19 +30,19 @@ if(OSTINSTALLED!=TRUE){
 }
 
 # Encrypt/Decrypt secret key - randomly generated during installation.
-define('SECRET_SALT','452a1af03bc7fa89769beee0997f1e31');
+define('SECRET_SALT','*SALT*');
 
 #Default admin email. Used only on db connection issues and related alerts.
-define('ADMIN_EMAIL','admin@dev.solvedit.nu');
+define('ADMIN_EMAIL','*EMAIL*');
 
 # Database Options
 # ---------------------------------------------------
 # Mysql Login info
 define('DBTYPE','mysql');
-define('DBHOST','localhost');
-define('DBNAME','solved1q_osti717');
-define('DBUSER','solved1q_osti717');
-define('DBPASS','9S!19M1a]p');
+define('DBHOST','*HOST*');
+define('DBNAME','*DATABASE NAME*');
+define('DBUSER','*USER*');
+define('DBPASS','*PASSWORD*');
 
 # Table prefix
 define('TABLE_PREFIX','ost2d_');
